@@ -1,0 +1,142 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.homepage {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header Section */
+.header {
+  position: relative;
+  background: url('https://images.pexels.com/photos/4850621/pexels-photo-4850621.jpeg') center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 20px;
+  max-width: 400px;
+  border-left: 5px solid #6c8b6f;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+/* Service Section */
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+  gap: 20px;
+}
+
+.service-box {
+  flex: 2;
+}
+
+.service-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-box button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #6c8b6f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.service-circle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-circle img {
+  border: 5pz solid;
+  width: 400px;
+  height: 500px;
+}
+
+/* Highlight Section */
+.highlight {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 40px 20px;
+  margin: 40px 0;
+}
+
+.highlight-number {
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #6c8b6f;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.highlight-text h2 {
+  font-size: 20px;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 32%;
+  border-radius: 8px;
+}
+
+/* Projects */
+.projects {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.project-images img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
